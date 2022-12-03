@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="style.css">
+
+<script>
+    function calculate(x){
+
+        form.display.value = form.display.value + x;
+    }
+     
+
+</script>
+
+</head>
+<body>
+    <div class="calculator">
+        <form action="" name="form">
+            <input type="text" value="" class="form-control main-bar" name="display" id="inp" placeholder="0">
+            </form>
+           <div class="button area">
+
+            <div class="line">
+                <input type="button" name="btn" value="AC" class="btn btn-black" onclick="display.value = null" >
+                <input type="button" name="btn" value="()" class="btn btn-primary" onclick="calculate(this.value)">
+                <input type="button" name="btn" value="%" class="btn btn-primary" onclick="calculate(this.value)">
+                <input type="button" name="btn" value="/" class="btn btn-warning" onclick="calculate(this.value)">
+
+            </div>
+
+            <div class="line">
+                <input type="button" name="btn" value="7" class="btn btn-primary" onclick="calculate(this.value)">
+                <input type="button" name="btn" value="8" class="btn btn-primary" onclick="calculate(this.value)">
+                <input type="button" name="btn" value="9" class="btn btn-primary" onclick="calculate(this.value)">
+                <input type="button" name="btn" value="*" class="btn btn-warning" onclick="calculate(this.value)">
+
+            </div>
+
+            <div class="line">
+                <input type="button" name="btn" value="4" class="btn btn-primary" onclick="calculate(this.value)">
+                <input type="button" name="btn" value="5" class="btn btn-primary" onclick="calculate(this.value)">
+                <input type="button" name="btn" value="6" class="btn btn-primary" onclick="calculate(this.value)">
+                <input type="button" name="btn" value="-" class="btn btn-warning" onclick="calculate(this.value)">
+
+            </div>
+
+            <div class="line">
+                <input type="button" name="btn" value="1" class="btn btn-primary" onclick="calculate(this.value)">
+                <input type="button" name="btn" value="2" class="btn btn-primary" onclick="calculate(this.value)">
+                <input type="button" name="btn" value="3" class="btn btn-primary" onclick="calculate(this.value)">
+                <input type="button" name="btn" value="+" class="btn btn-warning" onclick="calculate(this.value)">
+
+            </div>
+
+            <div class="line">
+                <input type="button" name="btn" value="0" class="btn btn-primary" onclick="calculate(this.value)">
+                <input type="button" name="btn" value="." class="btn btn-primary" onclick="calculate(this.value)">
+                <input type="button" name="btn" value="x" class="btn btn-dark" onclick="calculate(this.value)">
+                <input type="button" name="btn" value="=" class="btn btn-warning" onclick="calculate.display.value = eval(calculate.display.value)">
+
+            </div>
+           </div>
+        
+
+    </div>
+    
+</body>
+</html>
